@@ -1,0 +1,246 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 0.5px;
+}
+
+section:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+/* Section 2 */
+section:nth-child(2) {
+    background-color: black;
+    /* padding: 15px */
+    height: 60px;
+    margin: 0px;
+}
+
+/* List style */
+section:nth-child(2) nav ul li {
+    list-style: none;
+    /* margin: 0px; */
+    height: 100%;
+}
+
+/* Style navbar a */
+section:nth-child(2) nav ul li a {
+    display: block;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 10px;
+    height: 100%;
+    /* margin: 0px; */
+}
+
+/* Hover navbar */
+section:nth-child(2) nav ul a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    /* transition: background-color 1s; */
+    transition: color 0.5s;
+
+}
+
+section:nth-child(2) nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+section:nth-child(2) nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    position: relative;
+    padding: 0
+}
+
+section:nth-child(2) nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+section:nth-child(2) nav .logo h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 5%;
+    justify-content: center;
+    gap: 5%
+}
+
+section:nth-child(3) .card p {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+section:nth-child(3) .card {
+    width: 30%;
+    min-width: 300px;
+}
+
+section:nth-child(3) .title {
+    display: flex;
+}
+
+section .container h1 {
+    text-decoration: underline;
+    font-weight: 900;
+    text-align: center;
+    font-size: 28px;
+    margin: 40px 0px;
+}
+
+section:nth-child(4) .container .image-container img {
+    width: 350px
+}
+
+section:nth-child(4) .container .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+section:nth-child(5) .container hr {
+    width: 50%
+}
+
+section:nth-child(5) .container .contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section:nth-child(5) .container .contact-container .section-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-child(5) .container .contact-container .contact-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    border-color: rgb(116, 116, 116);
+    border-radius: 5px;
+    padding: 5px
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    border-color: rgb(116, 116, 116);
+    border-radius: 5px;
+    padding: 5px
+
+}
+
+form label {
+    font-size: 22px;
+    margin-top: 10px
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 18px; 
+  margin: 5px
+}
+
+form button {
+    height: 40px;
+    background-color: teal;
+    border: none;
+    width: 102%;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section:nth-child(5) .contact-container .contact-section .row-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+section:nth-child(5) .contact-container .contact-section .row-contact p, i {
+    font-size: 22px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    height: 100px;
+
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    height: 100%;
+}
+
+

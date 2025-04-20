@@ -152,6 +152,7 @@ section:nth-child(5) .container .contact-container {
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 section:nth-child(5) .container .contact-container .section-form {

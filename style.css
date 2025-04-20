@@ -29,6 +29,13 @@ body {
     word-spacing: 0.5px;
 }
 
+.menu-icon {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: none;
+}
+
 section:nth-child(1) {
     display: flex;
     justify-content: center;
@@ -145,24 +152,28 @@ section:nth-child(4) .container .image-container {
 }
 
 section:nth-child(5) .container hr {
-    width: 50%
+    width: 40%
 }
 
 section:nth-child(5) .container .contact-container {
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 section:nth-child(5) .container .contact-container .section-form {
-    width: 100%;
+    width: 50%;
+    min-width: 400px;
     display: flex;
     justify-content: center;
 }
 
 section:nth-child(5) .container .contact-container .contact-section {
-    width: 100%;
+    width: 50%;
+    min-width: 400px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,7 +243,7 @@ section:nth-child(5) .contact-container .contact-section .row-contact p, i {
 footer {
     background-color: black;
     height: 100px;
-
+    padding: 0 10px
 }
 
 footer p {
@@ -242,6 +253,20 @@ footer p {
     color: white;
     font-size: 18px;
     height: 100%;
+    text-align: center;
 }
 
+@media (max-width: 700px) {
+    section:nth-child(2) nav ul {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+        gap: 20px;
+        right: 50px;
+        position: absolute;
+
+    }
+}
 
